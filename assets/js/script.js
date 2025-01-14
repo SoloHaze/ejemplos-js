@@ -105,5 +105,28 @@ for (const numero of numeritos) {
         console.log("El 0 es neutro");
     }
 }
-
+// agregar el id en <h1> id="titulo"</h1>
 console.log(document.getElementById("titulo") );
+
+
+//Funciones: 
+function sumar(num1, num2){
+        let total = num1 + num2;
+        return total;
+
+}
+
+function agregarPinturas(producto,descripcion,precio,autor,tecnicaUsada){
+    let agregarPinturaArray
+
+}
+
+//crear funcion de rescatar informacion del formulario
+
+
+//Vamos a convertir o crear funciones flecha:
+
+let sumarr = (num1,num2) =>{
+
+    return num1 + num2;
+}
