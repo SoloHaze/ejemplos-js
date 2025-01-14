@@ -39,8 +39,11 @@ contenedor.appendChild(frase);
 
 //Lo mismo para una lista
 
-let frases = ["frase 1", "frase 2", "frase 3"];//esta debera ser la lista de pinturas
+let frases = ["frase 1", "frase 2", "frase 3","frase 4"];//esta debera ser la lista de pinturas
+frases.push("frase 5");
+const contenedorLista = document.getElementById("contenedor-lista");
 for (let f of frases) {
-    const p = document.createElement("p");
+    const p = document.createElement("p");//se crean 3 parrafos para que recorra
     p.textContent = f;
+    contenedorLista.appendChild(p);
 }
